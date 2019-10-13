@@ -1,6 +1,13 @@
+#ifndef HEADERSINCLUDED
+
+#define HEADERSINCLUDED
+
 #include <SFML/Graphics.hpp>
 #include <random>
 #include <iostream>
+
+
+#endif
 
 int main()
 {
