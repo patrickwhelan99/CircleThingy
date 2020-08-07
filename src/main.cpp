@@ -11,10 +11,10 @@
 
 int main()
 {
-    sf::RenderWindow app(sf::VideoMode(1920, 1080), "SFML window");
+    sf::RenderWindow app(sf::VideoMode(800, 800), "SFML window");
 
     sf::VertexArray linesArray(sf::LinesStrip, 0);
-    const sf::Vector2f centre(960, 540);
+    const sf::Vector2f centre(400, 400);
     const float radius = 300.0f;
 
     srand(std::time(NULL));
