@@ -15,6 +15,9 @@
 <p/>
 
 
+<img src="https://github.com/patrickwhelan99/CircleThingy/blob/master/docs/media/example.gif?raw=true" width="50%" height="50%" />
+
+
 ## Requirements
 #### g++
 #### make
