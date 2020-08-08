@@ -29,6 +29,13 @@ int main()
         {
             if (event.type == sf::Event::Closed)
                 app.close();
+
+	    if (event.type == sf::Event::Resized)
+            {
+             	// update the view to the new size of the window
+                sf::FloatRect visibleArea(0, 0, event.size.width, event.size.height);
+                app.setView(sf::View(visibleArea));
+            }
         }
 
         duration = ( std::clock() - start ) / (double) CLOCKS_PER_SEC;
